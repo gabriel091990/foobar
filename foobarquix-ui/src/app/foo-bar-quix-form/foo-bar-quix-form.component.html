@@ -1,0 +1,14 @@
+<div class="container">
+  <form [formGroup]="checkoutForm" (ngSubmit)="submitNumber()">
+
+    <div>
+      <label for="inputNumber">
+        Number to convert<br>
+      </label>
+      <input id="inputNumber" type="text" formControlName="inputNumber">
+    </div>
+
+    <button class="button" type="submit">Convert</button>
+
+  </form>
+</div>
